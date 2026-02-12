@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import { Metadata } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Future Wallet • Financial Simulation Engine",
-  description: "High-Fidelity Financial Projection & Simulation Engine for DATAFEST’26",
+  description: "High-Fidelity Financial Projection & Simulation Engine for DATAFEST'26",
 };
 
 export default function RootLayout({
